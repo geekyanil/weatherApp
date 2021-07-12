@@ -1,0 +1,99 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Math&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: silver;
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6px;
+    border: 2px solid black;
+    border-radius: 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    background-color: rgb(212, 162, 33);
+}
+.main-header{
+    font-family: 'Encode Sans SC', sans-serif;
+}
+.sub-topic{
+    margin-top: 2px;
+    text-decoration: underline;
+    padding: 2px;
+   
+}
+
+.inputData{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6rem;
+  
+}
+input{
+    outline: none;
+    font-size: 20px;
+    border: 2px solid rgb(49, 8, 145);
+    border-radius: 5px;
+    padding: 1rem;
+    background-color:salmon;
+}
+.inputfield{
+    font-family: 'STIX Two Math', serif;
+
+}
+
+.noDataFound{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+    font: 400;
+    font-size: 20px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    background-color: yellow;
+    padding: 2px;
+
+}
+
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+    /* border: 2px solid red; */
+    border-radius: 10px;
+    background-color: rgb(52, 226, 226);
+    font-family: 'Lato', sans-serif;
+}
+.info{
+ display: grid;
+ margin: 2rem;
+ padding: 0.5rem;
+ 
+}
+.search,.temp,.tempmin_max
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem;
+}
